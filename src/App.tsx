@@ -581,10 +581,11 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
             {/* Standard Plan */}
             <div className="bg-gray-800/90 backdrop-blur-sm rounded-2xl shadow-xl overflow-hidden border border-gray-700 relative flex flex-col h-full">
-              <div className="text-center mt-8">
+              <div className="text-center mt-8 space-y-2">
                 <span className="bg-[#9D4EDD] px-4 py-1 rounded-full text-sm font-semibold text-white shadow-lg">
                   STANDARD
                 </span>
+                <p className="text-gray-400 text-sm">Bootcamp</p>
               </div>
               <div className="p-6 lg:p-12 flex flex-col flex-1">
                 <div className="space-y-6 flex-1">
@@ -593,127 +594,23 @@ function App() {
                     <div className="flex-1">
                       <div className="flex items-center justify-between">
                         <span className="text-gray-300">
-                          4-Week Program (Group Sessions)
-                        </span>
-                        <span className="text-gray-400 font-medium">
-                          $1,995
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4">
-                    <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
-                    <div className="flex-1">
-                      <div className="flex items-center justify-between">
-                        <span className="text-gray-300">
-                          Live Building Sessions
-                        </span>
-                        <span className="text-gray-400 font-medium">
-                          $2,000
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4">
-                    <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
-                    <div className="flex-1">
-                      <div className="flex items-center justify-between">
-                        <span className="text-gray-300">Community Access</span>
-                        <span className="text-gray-400 font-medium">$500</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4">
-                    <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
-                    <div className="flex-1">
-                      <div className="flex items-center justify-between">
-                        <span className="text-gray-300">
-                          $100K in Software Credits
-                        </span>
-                        <span className="text-gray-400 font-medium">$500</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-12 pt-8 border-t border-gray-700">
-                  <div className="flex items-center justify-between mb-8">
-                    <div className="w-full">
-                      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3 mb-4">
-                        <p className="text-lg md:text-xl text-gray-400">
-                          Total Value:
-                        </p>
-                        <p className="text-2xl md:text-3xl text-gray-400 line-through font-semibold">
-                          $4,995
-                        </p>
-                      </div>
-                      <p className="text-4xl md:text-5xl font-bold text-white bg-gradient-to-r from-[#9D4EDD] to-[#FF69B4] text-transparent bg-clip-text">
-                        $2,995
-                      </p>
-                      <p className="text-gray-400 mt-2">One-time payment</p>
-                    </div>
-                  </div>
-                  <button className="w-full bg-gradient-to-r from-[#9D4EDD] to-[#FF69B4] text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-all shadow-lg hover:shadow-xl">
-                    <a
-                      href="https://form.fillout.com/t/f4YbDzyQjCus"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block w-full h-full"
-                    >
-                      Apply Now
-                    </a>
-                  </button>
-                  <p className="text-center text-gray-500 text-sm mt-4">
-                    Only 5 Premium spots available per cohort
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Premium Plan */}
-            <div className="bg-gray-800/90 backdrop-blur-sm rounded-2xl shadow-xl overflow-hidden border border-gray-700 relative flex flex-col h-full">
-              <div className="text-center mt-8">
-                <span className="bg-gradient-to-r from-[#FF69B4] to-[#FF7F50] px-4 py-1 rounded-full text-sm font-semibold text-white shadow-lg">
-                  PREMIUM
-                </span>
-              </div>
-              <div className="p-6 lg:p-12 flex flex-col flex-1">
-                <div className="space-y-6 flex-1">
-                  <div className="flex items-center gap-4">
-                    <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
-                    <div className="flex-1">
-                      <div className="flex items-center justify-between">
-                        <span className="text-gray-300">
-                          4-Week VIP Program (12 Live Sessions)
-                        </span>
-                        <span className="text-gray-400 font-medium">
-                          $1,995
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4">
-                    <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
-                    <div className="flex-1">
-                      <div className="flex items-center justify-between">
-                        <span className="text-gray-300">
-                          1-on-1 Technical Coaching Sessions
-                        </span>
-                        <span className="text-gray-400 font-medium">
-                          $4,500
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4">
-                    <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
-                    <div className="flex-1">
-                      <div className="flex items-center justify-between">
-                        <span className="text-gray-300">
-                          Personalized App Strategy Session
+                          1 Personalized App Strategy Session
                         </span>
                         <span className="text-gray-400 font-medium">
                           $1,500
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
+                    <div className="flex-1">
+                      <div className="flex items-center justify-between">
+                        <span className="text-gray-300">
+                          Live Learning Sessions
+                        </span>
+                        <span className="text-gray-400 font-medium">
+                          $2,000
                         </span>
                       </div>
                     </div>
@@ -764,6 +661,117 @@ function App() {
                         </span>
                         <span className="text-gray-400 font-medium">
                           $1,000
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-12 pt-8 border-t border-gray-700">
+                  <div className="flex items-center justify-between mb-8">
+                    <div className="w-full">
+                      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3 mb-4">
+                        <p className="text-lg md:text-xl text-gray-400">
+                          Total Value:
+                        </p>
+                        <p className="text-2xl md:text-3xl text-gray-400 line-through font-semibold">
+                          $4,995
+                        </p>
+                      </div>
+                      <p className="text-4xl md:text-5xl font-bold text-white bg-gradient-to-r from-[#9D4EDD] to-[#FF69B4] text-transparent bg-clip-text">
+                        $2,995
+                      </p>
+                      <p className="text-gray-400 mt-2">One-time payment</p>
+                    </div>
+                  </div>
+                  <button className="w-full bg-gradient-to-r from-[#9D4EDD] to-[#FF69B4] text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition-all shadow-lg hover:shadow-xl">
+                    <a
+                      href="https://form.fillout.com/t/f4YbDzyQjCus"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block w-full h-full"
+                    >
+                      Apply Now
+                    </a>
+                  </button>
+                  <p className="text-center text-gray-500 text-sm mt-4">
+                    Only 5 Premium spots available per cohort
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Premium Plan (Bootcamp + Coaching) */}
+            <div className="bg-gray-800/90 backdrop-blur-sm rounded-2xl shadow-xl overflow-hidden border border-gray-700 relative flex flex-col h-full">
+              <div className="text-center mt-8 space-y-2">
+                <span className="bg-gradient-to-r from-[#FF69B4] to-[#FF7F50] px-4 py-1 rounded-full text-sm font-semibold text-white shadow-lg">
+                  PREMIUM
+                </span>
+                <p className="text-gray-400 text-sm">Bootcamp + Coaching</p>
+              </div>
+              <div className="p-6 lg:p-12 flex flex-col flex-1">
+                <div className="space-y-6 flex-1">
+                  <div className="flex items-center gap-4">
+                    <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
+                    <div className="flex-1">
+                      <div className="flex items-center justify-between">
+                        <span className="text-gray-300">
+                          Everything in the Bootcamp package
+                        </span>
+                        <span className="text-gray-400 font-medium">
+                          $10,000
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
+                    <div className="flex-1">
+                      <div className="flex items-center justify-between">
+                        <span className="text-gray-300">
+                          1-on-1 Technical Coaching
+                        </span>
+                        <span className="text-gray-400 font-medium">
+                          $4,500
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
+                    <div className="flex-1">
+                      <div className="flex items-center justify-between">
+                        <span className="text-gray-300">
+                          Private Slack Support Channel
+                        </span>
+                        <span className="text-gray-400 font-medium">
+                          $1,500
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
+                    <div className="flex-1">
+                      <div className="flex items-center justify-between">
+                        <span className="text-gray-300">
+                          Your MVP Built Guarantee
+                        </span>
+                        <span className="text-gray-400 font-medium">
+                          $3,000
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
+                    <div className="flex-1">
+                      <div className="flex items-center justify-between">
+                        <span className="text-gray-300">
+                          YouTube Channel Feature (200k Subs)
+                        </span>
+                        <span className="text-gray-400 font-medium">
+                          $2,000
                         </span>
                       </div>
                     </div>
