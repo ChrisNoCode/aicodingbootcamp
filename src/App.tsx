@@ -578,14 +578,16 @@ function App() {
               Select the plan that best fits your goals and resources
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             {/* Standard Plan */}
             <div className="bg-gray-800/90 backdrop-blur-sm rounded-2xl shadow-xl overflow-hidden border border-gray-700 relative flex flex-col h-full">
               <div className="text-center mt-8 space-y-2">
                 <span className="bg-[#9D4EDD] px-4 py-1 rounded-full text-sm font-semibold text-white shadow-lg">
                   STANDARD
                 </span>
-                <p className="text-gray-400 text-sm">Bootcamp</p>
+                <p className="text-gray-400 text-3xl text-white font-bold">
+                  Bootcamp
+                </p>
               </div>
               <div className="p-6 lg:p-12 flex flex-col flex-1">
                 <div className="space-y-6 flex-1">
@@ -595,6 +597,17 @@ function App() {
                       <div className="flex items-center justify-between">
                         <span className="text-gray-300">
                           1 Personalized App Strategy Session
+                        </span>
+                        <span className="text-gray-400 font-medium">$995</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
+                    <div className="flex-1">
+                      <div className="flex items-center justify-between">
+                        <span className="text-gray-300">
+                          Live Learning Sessions
                         </span>
                         <span className="text-gray-400 font-medium">
                           $1,500
@@ -607,23 +620,10 @@ function App() {
                     <div className="flex-1">
                       <div className="flex items-center justify-between">
                         <span className="text-gray-300">
-                          Live Learning Sessions
-                        </span>
-                        <span className="text-gray-400 font-medium">
-                          $2,000
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4">
-                    <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
-                    <div className="flex-1">
-                      <div className="flex items-center justify-between">
-                        <span className="text-gray-300">
                           Live Building Sessions & Workshops
                         </span>
                         <span className="text-gray-400 font-medium">
-                          $3,000
+                          $1,500
                         </span>
                       </div>
                     </div>
@@ -659,9 +659,7 @@ function App() {
                         <span className="text-gray-300">
                           Lifetime Access to Course Materials
                         </span>
-                        <span className="text-gray-400 font-medium">
-                          $1,000
-                        </span>
+                        <span className="text-gray-400 font-medium">$500</span>
                       </div>
                     </div>
                   </div>
@@ -675,11 +673,11 @@ function App() {
                           Total Value:
                         </p>
                         <p className="text-2xl md:text-3xl text-gray-400 line-through font-semibold">
-                          $4,995
+                          $6,995
                         </p>
                       </div>
-                      <p className="text-4xl md:text-5xl font-bold text-white bg-gradient-to-r from-[#9D4EDD] to-[#FF69B4] text-transparent bg-clip-text">
-                        $2,995
+                      <p className="text-3xl md:text-4xl font-bold text-white bg-gradient-to-r from-[#9D4EDD] to-[#FF69B4] text-transparent bg-clip-text">
+                        $1,995
                       </p>
                       <p className="text-gray-400 mt-2">One-time payment</p>
                     </div>
@@ -707,7 +705,9 @@ function App() {
                 <span className="bg-gradient-to-r from-[#FF69B4] to-[#FF7F50] px-4 py-1 rounded-full text-sm font-semibold text-white shadow-lg">
                   PREMIUM
                 </span>
-                <p className="text-gray-400 text-sm">Bootcamp + Coaching</p>
+                <p className="text-gray-400 text-3xl text-white font-bold">
+                  Bootcamp + Coaching
+                </p>
               </div>
               <div className="p-6 lg:p-12 flex flex-col flex-1">
                 <div className="space-y-6 flex-1">
@@ -715,11 +715,11 @@ function App() {
                     <Check className="w-6 h-6 text-emerald-500 flex-shrink-0" />
                     <div className="flex-1">
                       <div className="flex items-center justify-between">
-                        <span className="text-gray-300">
+                        <span className="flex-wrap text-gray-300">
                           Everything in the Bootcamp package
                         </span>
                         <span className="text-gray-400 font-medium">
-                          $10,000
+                          $6,995
                         </span>
                       </div>
                     </div>
@@ -732,7 +732,7 @@ function App() {
                           1-on-1 Technical Coaching
                         </span>
                         <span className="text-gray-400 font-medium">
-                          $4,500
+                          $3,500
                         </span>
                       </div>
                     </div>
@@ -758,7 +758,7 @@ function App() {
                           Your MVP Built Guarantee
                         </span>
                         <span className="text-gray-400 font-medium">
-                          $3,000
+                          $2,000
                         </span>
                       </div>
                     </div>
@@ -786,10 +786,10 @@ function App() {
                           Total Value:
                         </p>
                         <p className="text-2xl md:text-3xl text-gray-400 line-through font-semibold">
-                          $13,995
+                          $15,995
                         </p>
                       </div>
-                      <p className="text-4xl md:text-5xl font-bold text-white bg-gradient-to-r from-[#FF69B4] to-[#FF7F50] text-transparent bg-clip-text">
+                      <p className="text-3xl md:text-4xl font-bold text-white bg-gradient-to-r from-[#FF69B4] to-[#FF7F50] text-transparent bg-clip-text">
                         $4,995
                       </p>
                       <p className="text-gray-400 mt-2">One-time payment</p>
