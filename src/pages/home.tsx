@@ -12,7 +12,6 @@ import {
   Network,
   Check,
 } from "lucide-react";
-import { AnimatedCircle } from "../components/AnimatedCircle";
 import { Grid } from "../components/Grid";
 import { FloatingBlurs } from "../components/FloatingBlurs";
 import { FeatureCard } from "../components/FeatureCard";
@@ -27,6 +26,7 @@ import FrequentlyAskedQuestions from "../components/FrequentlyAskedQuestions";
 import HeroSection from "../components/HeroSection";
 import LogoSection from "../components/LogoSection";
 import VideoTestimonials from "../components/VideoTestimonials";
+import { AnimatedCircle } from "../components/AnimatedCircle";
 
 export default function Home() {
   useScrollAnimation();
@@ -39,7 +39,7 @@ export default function Home() {
 
       {/* Benefits Section */}
       <div className="py-12 md:py-20 bg-gray-950">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="md:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div
             className="text-center mb-20 opacity-0 translate-y-8 transition-all duration-1000 ease-[cubic-bezier(0.16, 1, 0.3, 1)] relative z-10"
             style={{

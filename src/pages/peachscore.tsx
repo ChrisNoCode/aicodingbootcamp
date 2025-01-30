@@ -12,7 +12,7 @@ import {
   Network,
   Check,
 } from "lucide-react";
-import { AnimatedCircle } from "../components/AnimatedCircle";
+// import { AnimatedCircle } from "../components/AnimatedCircle";
 import { Grid } from "../components/Grid";
 import { FloatingBlurs } from "../components/FloatingBlurs";
 import { FeatureCard } from "../components/FeatureCard";
@@ -28,6 +28,7 @@ import FrequentlyAskedQuestions from "../components/FrequentlyAskedQuestions";
 import HeroSection from "../components/HeroSection";
 import LogoSection from "../components/LogoSection";
 import VideoTestimonials from "../components/VideoTestimonials";
+import { AnimatedCircle } from "../components/AnimatedCircle";
 
 export default function PeachScore() {
   useScrollAnimation();

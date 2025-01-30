@@ -6,7 +6,7 @@ interface HeroSectionProps {
 
 export default function HeroSection({ applyLinkReference }: HeroSectionProps) {
   return (
-    <div className="relative overflow-hidden bg-gray-950">
+    <div className="relative bg-gray-950">
       <Grid height="100vh" opacity={0.3} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-40">
         <div
