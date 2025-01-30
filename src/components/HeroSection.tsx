@@ -1,6 +1,10 @@
 import { Grid } from "./Grid";
 
-export default function HeroSection() {
+interface HeroSectionProps {
+  applyLinkReference: string;
+}
+
+export default function HeroSection({ applyLinkReference }: HeroSectionProps) {
   return (
     <div className="relative overflow-hidden bg-gray-950">
       <Grid height="100vh" opacity={0.3} />
@@ -25,7 +29,7 @@ export default function HeroSection() {
           </p>
           <div className="flex flex-col items-center space-y-6 mb-12">
             <a
-              href="/#plans"
+              href={applyLinkReference}
               rel="noopener noreferrer"
               className="relative bg-white text-black px-12 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1 backdrop-blur-sm"
             >

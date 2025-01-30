@@ -35,7 +35,7 @@ export default function PeachScore() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-950 to-gray-900">
       <AnimatedCircle />
-      <HeroSection />
+      <HeroSection applyLinkReference="/peachscore#plans" />
       <LogoSection />
 
       {/* Benefits Section */}
@@ -493,7 +493,7 @@ export default function PeachScore() {
             </p>
             <div className="flex flex-col items-center space-y-6">
               <a
-                href="#plans"
+                href="/peachscore#plans"
                 className="relative bg-white text-black px-12 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1 backdrop-blur-sm"
               >
                 Apply Now - Limited Spots Available

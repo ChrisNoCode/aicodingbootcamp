@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-950 to-gray-900">
       <AnimatedCircle />
-      <HeroSection />
+      <HeroSection applyLinkReference="/#plans" />
       <LogoSection />
 
       {/* Benefits Section */}
